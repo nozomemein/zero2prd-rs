@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use sqlx::{Connection, PgConnection, PgPool};
+use sqlx::PgPool;
 use zero2prd_rs::{configuration::get_configuration, startup::run};
 
 #[tokio::main]
